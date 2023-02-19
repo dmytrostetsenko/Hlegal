@@ -1,11 +1,11 @@
 @charset "UTF-8";
 @font-face {
   font-family: Montserrat-regular;
-  src: url(../../Assets/Fonts/Montserrat/static/Montserrat-Regular.ttf);
+  src: url(../assets/fonts/montserrat/static/Montserrat-Regular.ttf);
 }
 @font-face {
   font-family: Montserrat-bold;
-  src: url(../../Assets/Fonts/Montserrat/static/Montserrat-Bold.ttf);
+  src: url(../assets/fonts/montserrat/static/Montserrat-Bold.ttf);
 }
 * {
   box-sizing: border-box;
@@ -14,7 +14,7 @@
 body {
   font-size: 16px;
   line-height: 20px;
-  font-family: Montserrat-regular;
+  font-family: Montserrat-Regular;
   color: black;
 }
 
@@ -53,7 +53,7 @@ body {
 .main-heading {
   font-size: 38px;
   line-height: 46px;
-  font-family: Montserrat-bold;
+  font-family: Montserrat-Bold;
   background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -71,7 +71,7 @@ body {
 }
 
 .hlegal-phone {
-  font-family: Montserrat-bold;
+  font-family: Montserrat-Bold;
   color: white;
 }
 
@@ -135,7 +135,7 @@ body {
 .navbar__language-link {
   font-size: 12px;
   line-height: 15px;
-  font-family: Montserrat-bold;
+  font-family: Montserrat-Bold;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -167,7 +167,7 @@ body {
   margin: 0;
 }
 .menu__link {
-  font-family: Montserrat-bold;
+  font-family: Montserrat-Bold;
   color: white;
   text-decoration: none;
   padding: 0 0 3px 0;
@@ -430,7 +430,7 @@ body.lock {
   text-transform: uppercase;
   font-size: 12px;
   line-height: 15px;
-  font-family: Montserrat-bold;
+  font-family: Montserrat-Bold;
   color: rgb(36, 163, 255);
 }
 .footer .hlegal-adress {
@@ -448,7 +448,7 @@ body.lock {
 }
 .footer .hlegal-mail {
   text-decoration: none;
-  font-family: Montserrat-bold;
+  font-family: Montserrat-Bold;
   color: rgb(36, 163, 255);
 }
 .footer .hlegal-mail:hover {
@@ -486,7 +486,7 @@ body.lock {
 .publications__link {
   font-size: 14px;
   line-height: 17px;
-  font-family: Montserrat-bold;
+  font-family: Montserrat-Bold;
   text-transform: uppercase;
   color: rgb(36, 163, 255);
   text-decoration: none;
@@ -520,19 +520,19 @@ body.lock {
   border-radius: 12px 12px 0 0;
 }
 .publications__photo--devices {
-  background-image: url(../../Assets/Images/Publications/Publication-1.png);
+  background-image: url(../assets/images/publications/Publication-1.png);
 }
 .publications__photo--gdpr {
-  background-image: url(../../Assets/Images/Publications/Publication-2.png);
+  background-image: url(../assets/images/publications/Publication-2.png);
 }
 .publications__photo--mellinnials {
-  background-image: url(../../Assets/Images/Publications/Publication-3.png);
+  background-image: url(../assets/images/publications/Publication-3.png);
 }
 .publications__photo--language {
-  background-image: url(../../Assets/Images/Publications/Publication-4.png);
+  background-image: url(../assets/images/publications/Publication-4.png);
 }
 .publications__photo--kids {
-  background-image: url(../../Assets/Images/Publications/Publication-5.png);
+  background-image: url(../assets/images/publications/Publication-5.png);
 }
 .publications__description {
   padding: 30px;
@@ -541,7 +541,7 @@ body.lock {
   gap: 15px;
 }
 .publications__name {
-  font-family: Montserrat-bold;
+  font-family: Montserrat-Bold;
   color: rgb(36, 163, 255);
   text-decoration: none;
 }
@@ -555,7 +555,7 @@ body.lock {
   padding-bottom: 15px;
   font-size: 12px;
   line-height: 15px;
-  font-family: Montserrat-bold;
+  font-family: Montserrat-Bold;
   color: rgb(179, 179, 186);
 }
 .publications__text {
@@ -585,7 +585,7 @@ body.lock {
   .publications__main-heading {
     font-size: 30px;
     line-height: 37px;
-    font-family: Montserrat-bold;
+    font-family: Montserrat-Bold;
   }
 }
 .publications {
@@ -601,7 +601,7 @@ body.lock {
   border: 1px solid rgb(230, 230, 240);
   border-radius: 12px;
   display: flex;
-  font-family: Montserrat-bold;
+  font-family: Montserrat-Bold;
   color: #323264;
   cursor: pointer;
 }
@@ -622,7 +622,7 @@ body.lock {
   border: none;
   border-radius: 12px;
   box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
-  font-family: Montserrat-bold;
+  font-family: Montserrat-Bold;
   color: white;
   background-color: rgb(36, 163, 255);
   cursor: pointer;
